@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Righteous&family=Sarala&display=swap');
 
 body {
-    background-image: linear-gradient(to left, #F28322, #F2CB07);
+    background-color: aqua;
 }
 
 .cabecalho {
     font-family: 'Irish Grover', cursive;
+    background-image: linear-gradient(to top rgba(#C07834 #958A86 #F6B714));
 }
+
