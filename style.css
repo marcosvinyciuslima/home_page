@@ -1,0 +1,25 @@
+* {
+    font-family: 'Irish Grover', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Righteous&family=Sarala&display=swap');
+
+body {
+    background-image: linear-gradient(to left, #F28322, #F2CB07);
+}
+
+.cabecalho {
+    font-family: 'Irish Grover', cursive;
+}
+
+.cabecalho-imagem {
+
+}
+
+.cabecalho-menu {
+
+}
+
+.cabecalho-menu-item {
+
+}
