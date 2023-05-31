@@ -1,15 +1,131 @@
+@import url('https://fonts.googleapis.com/css2? family=Caveat&family=Irish+Grover&family=Justo&display=swap');
+
 * {
     font-family: 'Irish Grover', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Righteous&family=Sarala&display=swap');
-
 body {
-    background-color: aqua;
+    font-size: 100px;
+    background-image: linear-gradient(to top, #0206596e, #F2CB07);
 }
 
 .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
     font-family: 'Irish Grover', cursive;
-    background-image: linear-gradient(to top rgba(#C07834 #958A86 #F6B714));
 }
 
+.cabecalho-imagem {
+    height: 200px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px
+}
+
+.cabecalho-menu-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #010440;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    text-shadow: 3px 3px 5px black;
+}
+
+.conteudo {
+    margin-bottom: 46px;
+    border-top: 0.4px solid #020659;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Sarala', cursiva;
+    font-size: 30px;
+    color: #020659;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    text-decoration: underline;
+    font-family: 'Sarala', cursiva; 
+    font-size: 35px;
+    color: #010440;
+}
+
+.conteudo-principal-escrito-botao {
+    color: #020659;
+    width: 185px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 5px 5px 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.conteudo-principal-imagem {
+    right: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.5px solid #020659;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-weight: 400px;
+    font-size: 35px;
+    margin-bottom: 16px;
+    padding-top: 60px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-size: 20px;
+}
+
+.rodape {
+    font-size: 16px;
+    text-align: center;
+    color: #020659;
+}
+
+.rodape-principal {
+    font-family: 'Times New Roman', Times, serif;
+}
